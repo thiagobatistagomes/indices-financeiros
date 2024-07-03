@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Carregar o arquivo Excel Para os Indices
-df = pd.read_excel(r'C:\Users\fabio\OneDrive\Documentos\Faculdade\Contabilidade em Informática\Trabalho\teste.xlsx')
+df = pd.read_excel(r'Caminho para a planilha')
 
 def calcularEstruturaDeCapital(df):
     # Calcular a Participação de Capital de Terceiros (PCT) em %
